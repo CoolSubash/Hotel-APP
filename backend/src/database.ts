@@ -5,7 +5,7 @@ import dotenv from 'dotenv';
 dotenv.config(); // Ensure dotenv is configured
 
 const dbUri: string | undefined = process.env.MONGO_DATABASE_URL;
-console.log(dbUri)
+
 if (!dbUri) {
   throw new Error('MongoDB connection string is not defined in the .env file');
 }
