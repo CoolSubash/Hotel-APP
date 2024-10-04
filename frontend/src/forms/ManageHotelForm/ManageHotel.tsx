@@ -49,7 +49,7 @@ const ManageHotel = ({onSave, isLoading}:onsave) => {
     })
     // Now we send the form data, including files
     onSave(formDataToSend);
-    // reset()
+    reset()
   };
   return (
     <>
