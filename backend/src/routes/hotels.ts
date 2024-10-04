@@ -40,6 +40,8 @@ router.get("/search",async(req:Request,res:Response)=>{
         const facilitiesArray:string[] = (facilities as string).split(",").map((facility)=>facility.trim());
         query.facilities={$in:facilitiesArray};
     }
+
+    
     const pageNumber=parseInt(req.query.page?req.query.page.toString(): "1");
     const pageSize=5;
     const skipNumber=(pageNumber-1)*pageSize;

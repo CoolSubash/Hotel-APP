@@ -83,4 +83,29 @@ export const signOut = async () => {
       throw new Error(err.message); // Return the error message
     }
   };
+
+  // ADDING A Hotel
+
+  export const addHotel = async (data:FormData) => {
+   
+    try {
+      const response = await fetch(`${API_BASE_URL}/api/my-hotel`, {
+        method: 'POST',
+        body: data, 
+        credentials: 'include', 
+    });
+  
+    
+      if (!response.ok) {
+        throw new Error(`Error while saving: ${response.statusText}`);
+      }
+  
+      const body = await response.json(); // Parse the JSON response
+      return body; // Return the parsed data
+    } catch (err: any) {
+      console.error("Error validating token:", err); // Log the error
+      throw new Error(err.message); // Return the error message
+    }
+  };
+  
   

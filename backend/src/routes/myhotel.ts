@@ -82,6 +82,8 @@ router.post(
   upload.array("imageFiles"), // Ensure the key matches in Postman
   hotelValidation,
   async (req: Request, res: Response) => {
+    console.log(req.body)
+    console.log(req.files)
     const errors = validationResult(req);
     if (!errors.isEmpty()) {
       return res.status(400).json({ errors: errors.array() });
@@ -94,7 +96,7 @@ router.post(
       }
    
       const urls: string[] = await uploadImage(files);
-      console.log(urls);
+     
       
 
       // Extract and convert fields
@@ -110,6 +112,7 @@ router.post(
         pricePerNight,
         starRating,
       } = req.body;
+     
 
       // Create a new Hotel instance with converted types
       const newHotelData: Partial<HotelType> = {
@@ -128,6 +131,7 @@ router.post(
         imageUrls: urls,
         bookings: [],
       };
+      
 
       const hotel = new Hotel(newHotelData);
       await hotel.save();
@@ -149,7 +153,7 @@ router.put("/:id", verifyToken, upload.array("imageFiles",6), hotelValidation,as
     if (!errors.isEmpty()) {
       return res.status(400).json({ errors: errors.array() });
     }
-   
+    console.log(req.files);
   
     const files = req.files as Express.Multer.File[] | undefined;
     if (!files || files.length === 0) {
