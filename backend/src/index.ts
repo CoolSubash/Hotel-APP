@@ -38,7 +38,10 @@ app.use("/api/users",userRoutes);
 app.use("/api/auth",authRoutes);
 app.use("/api/my-hotel",adminHotelRoutes)
 app.use("/api/hotel",hotelroutes)
-
+// A catch-all route to serve `index.html` for any other route not handled by the backend
+app.get('*', (req:Request, res:Response) => {
+  res.sendFile(path.join(__dirname, "../../frontend/dist/index.html"));
+});
 
   
 
