@@ -15,23 +15,23 @@ export const logincontroller=async(req:Request,res:Response)=>{
    
 
    try{
-   
+     
     const {email,password}=req.body;
     const user=await User.findOne({email:email});
     if(!user){
-     return res.json({"message":"Invalid Credentials or User Doesn't Exists"});
+     return res.status(401).json({"message":"Invalid Credentials or User Doesn't Exists"});
     }
 
     const isMatch=await bcrypt.compare(password,user.password);
     if(!isMatch){
-        return res.json({"message":"Invalid Credentials"});
+        return res.status(401).json({"message":"Invalid Credentials"});
     }
     const token=jwt.sign({userId:user.id},process.env.SECRET_KEY as string,{expiresIn:'1d'});
     res.cookie("auth_token",token,{
         httpOnly:true,
         maxAge:86400000
     })
-
+    
     return res.status(200).json({message:"User Login Successfully",userId:user._id});
     
     }catch(error){

@@ -1,0 +1,1532 @@
+[
+
+        {
+            "userId": "1",
+            "name": "Sunny Days Budget Inn",
+            "city": "Springfield",
+            "country": "USA",
+            "description": "Sunny Days Budget Inn is the perfect choice for budget-conscious travelers seeking comfort without breaking the bank. Located in Springfield, this inn offers clean and simple accommodations with essential amenities. Guests can enjoy complimentary breakfast, free WiFi, and easy access to local attractions. The friendly staff ensures a welcoming atmosphere, making it ideal for families and solo adventurers alike. With a focus on affordability, Sunny Days Budget Inn provides excellent value for money, allowing you to spend more on experiences and adventures during your stay.",
+            "type": "Budget",
+            "adultCount": 2,
+            "childCount": 2,
+            "facilities": [
+                "Free WiFi",
+                "Breakfast included"
+            ],
+            "pricePerNight": 75.00,
+            "starRating": 2,
+            "imageUrls": [
+                "https://images.pexels.com/photos/803975/pexels-photo-803975.jpeg?auto=compress&cs=tinysrgb&w=800",
+                "https://images.pexels.com/photos/463734/pexels-photo-463734.jpeg?auto=compress&cs=tinysrgb&w=800"
+            ],
+            "lastUpdated": "2024-08-15T10:00:00",
+            "bookings": []
+        },
+        {
+            "userId": "2",
+            "name": "Chic Boutique Hotel",
+            "city": "Nashville",
+            "country": "USA",
+            "description": "Chic Boutique Hotel in Nashville offers a unique blend of style and comfort in a vibrant urban setting. With its contemporary design and personalized service, this boutique hotel provides a cozy atmosphere for discerning travelers. Each room is tastefully decorated, featuring modern amenities and artisanal touches. Guests can enjoy complimentary coffee in the lobby, relax in the stylish lounge area, and explore the nearby arts and entertainment district. The hotel's commitment to sustainability and local partnerships enhances the overall experience, making it a favorite for travelers seeking authenticity and charm.",
+            "type": "Boutique",
+            "adultCount": 2,
+            "childCount": 0,
+            "facilities": [
+                "Free WiFi",
+                "Restaurant",
+                "Bar"
+            ],
+            "pricePerNight": 180.00,
+            "starRating": 4,
+            "imageUrls": [
+                "https://images.pexels.com/photos/206648/pexels-photo-206648.jpeg?auto=compress&cs=tinysrgb&w=800",
+            "https://images.pexels.com/photos/2294125/pexels-photo-2294125.jpeg?auto=compress&cs=tinysrgb&w=800",
+            "https://images.pexels.com/photos/1290877/pexels-photo-1290877.jpeg?auto=compress&cs=tinysrgb&w=800"
+            ],
+            "lastUpdated": "2024-08-15T10:00:00",
+            "bookings": []
+        },
+        {
+            "userId": "3",
+            "name": "Luxury Retreat Resort",
+            "city": "Malibu",
+            "country": "USA",
+            "description": "Luxury Retreat Resort in Malibu offers an opulent escape with stunning ocean views and world-class amenities. Guests can unwind in elegantly appointed suites that include private balconies, jacuzzis, and plush bedding. The resort features a gourmet restaurant, a full-service spa, and an infinity pool overlooking the beach. With personalized concierge service, guests can arrange private tours, spa treatments, and dining experiences tailored to their preferences. Luxury Retreat Resort is perfect for romantic getaways, family vacations, or indulgent retreats, ensuring a memorable stay in a breathtaking location.",
+            "type": "Luxury",
+            "adultCount": 2,
+            "childCount": 0,
+            "facilities": [
+                "Spa",
+                "Restaurant",
+                "Free WiFi",
+                "Pool"
+            ],
+            "pricePerNight": 750.00,
+            "starRating": 5,
+            "imageUrls": [
+                "https://images.pexels.com/photos/2832034/pexels-photo-2832034.jpeg?auto=compress&cs=tinysrgb&w=800",
+            "https://images.pexels.com/photos/91216/pexels-photo-91216.jpeg?auto=compress&cs=tinysrgb&w=800",
+            "https://images.pexels.com/photos/3182841/pexels-photo-3182841.jpeg?auto=compress&cs=tinysrgb&w=800"
+            ],
+            "lastUpdated": "2024-08-15T10:00:00",
+            "bookings": []
+        },
+        {
+            "userId": "4",
+            "name": "Alpine Ski Resort",
+            "city": "Aspen",
+            "country": "USA",
+            "description": "Alpine Ski Resort in Aspen is a winter wonderland for skiing enthusiasts and families alike. With direct access to the slopes, this resort features cozy lodgings with mountain views and modern amenities. Guests can enjoy ski-in/ski-out access, on-site rentals, and expert-led ski lessons. The resort also offers a heated outdoor pool, a spa, and dining options that cater to all tastes. After a day on the slopes, unwind by the fireplace with a hot drink or explore the vibrant nightlife of Aspen. Alpine Ski Resort ensures an unforgettable winter experience for all ages.",
+            "type": "Ski Resort",
+            "adultCount": 2,
+            "childCount": 2,
+            "facilities": [
+                "Ski rentals",
+                "Spa",
+                "Restaurant"
+            ],
+            "pricePerNight": 500.00,
+            "starRating": 4,
+            "imageUrls": [
+                "https://plus.unsplash.com/premium_photo-1687960116497-0dc41e1808a2?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8cmVzb3J0fGVufDB8fDB8fHww",
+                "https://images.unsplash.com/photo-1541518529671-aaeae36f21b2?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8cmVzb3J0fGVufDB8fDB8fHww",
+                "https://plus.unsplash.com/premium_photo-1681922761648-d5e2c3972982?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTd8fHJlc29ydHxlbnwwfHwwfHx8MA%3D%3D",
+                "https://plus.unsplash.com/premium_photo-1682285212027-6af0d0f70e07?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTN8fHJlc29ydHxlbnwwfHwwfHx8MA%3D%3D"
+            ], 
+            "lastUpdated": "2024-08-15T10:00:00",
+            "bookings": []
+        },
+        {
+            "userId": "5",
+            "name": "Executive Business Suites",
+            "city": "Chicago",
+            "country": "USA",
+            "description": "Executive Business Suites in Chicago provide a perfect haven for business travelers looking for convenience and comfort. Located in the heart of the city, these suites feature spacious work areas, high-speed internet, and meeting rooms equipped with the latest technology. Guests can enjoy complimentary breakfast and access to a fitness center. With close proximity to major corporate offices and public transport, this hotel is designed to facilitate productivity and relaxation. The professional staff is dedicated to ensuring a seamless stay, making it an ideal choice for business travelers on the go.",
+            "type": "Business",
+            "adultCount": 1,
+            "childCount": 0,
+            "facilities": [
+                "Free WiFi",
+                "Meeting rooms",
+                "Fitness Center"
+            ],
+            "pricePerNight": 250.00,
+            "starRating": 4,
+            "imageUrls": [
+                "https://plus.unsplash.com/premium_photo-1682913629540-3857602b540c?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8cmVzb3J0fGVufDB8fDB8fHww",
+                "https://images.unsplash.com/photo-1470043201067-764120126eb4?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fHJlc29ydHxlbnwwfHwwfHx8MA%3D%3D",
+                "https://plus.unsplash.com/premium_photo-1681922761648-d5e2c3972982?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTd8fHJlc29ydHxlbnwwfHwwfHx8MA%3D%3D",
+                "https://plus.unsplash.com/premium_photo-1682285212027-6af0d0f70e07?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTN8fHJlc29ydHxlbnwwfHwwfHx8MA%3D%3D"
+            ],
+            "lastUpdated": "2024-08-15T10:00:00",
+            "bookings": []
+        },
+        {
+            "userId": "6",
+            "name": "Family Fun Hotel",
+            "city": "Orlando",
+            "country": "USA",
+            "description": "Family Fun Hotel in Orlando is the ultimate destination for family vacations. With spacious family suites, a dedicated kids’ club, and a water park, this hotel is designed to keep everyone entertained. Guests can enjoy a variety of dining options, from casual eateries to fine dining, catering to all tastes. The hotel also offers shuttle services to nearby theme parks and attractions, making it easy to explore the magic of Orlando. The warm and welcoming staff ensure that families feel right at home, creating lasting memories during their stay.",
+            "type": "Family",
+            "adultCount": 2,
+            "childCount": 3,
+            "facilities": [
+                "Water park",
+                "Kids club",
+                "Free WiFi"
+            ],
+            "pricePerNight": 200.00,
+            "starRating": 4,
+            "imageUrls": [
+                "https://plus.unsplash.com/premium_photo-1681922761648-d5e2c3972982?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTd8fHJlc29ydHxlbnwwfHwwfHx8MA%3D%3D",
+                "https://plus.unsplash.com/premium_photo-1682285212027-6af0d0f70e07?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTN8fHJlc29ydHxlbnwwfHwwfHx8MA%3D%3D"
+            ],
+            "lastUpdated": "2024-08-15T10:00:00",
+            "bookings": []
+        },
+        {
+            "userId": "7",
+            "name": "Romantic Escape Hotel",
+            "city": "Sedona",
+            "country": "USA",
+            "description": "Romantic Escape Hotel in Sedona is a charming retreat perfect for couples looking to reconnect. Surrounded by breathtaking red rock formations, this hotel offers intimate rooms with private balconies and stunning views. Guests can indulge in couples’ spa treatments, enjoy candlelit dinners at the onsite restaurant, or explore the scenic hiking trails. The tranquil atmosphere and attentive service create a romantic ambiance ideal for anniversaries, honeymoons, or spontaneous getaways. With its serene surroundings and luxurious offerings, Romantic Escape Hotel is the perfect destination for lovebirds.",
+            "type": "Romantic",
+            "adultCount": 2,
+            "childCount": 0,
+            "facilities": [
+                "Spa",
+                "Fine Dining",
+                "Free WiFi"
+            ],
+            "pricePerNight": 350.00,
+            "starRating": 5,
+            "imageUrls": [
+               
+            
+            "https://images.pexels.com/photos/4567459/pexels-photo-4567459.jpeg?auto=compress&cs=tinysrgb&w=800",
+            "https://plus.unsplash.com/premium_photo-1681922761648-d5e2c3972982?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTd8fHJlc29ydHxlbnwwfHwwfHx8MA%3D%3D",
+            "https://plus.unsplash.com/premium_photo-1682285212027-6af0d0f70e07?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTN8fHJlc29ydHxlbnwwfHwwfHx8MA%3D%3D"
+            ],
+            "lastUpdated": "2024-08-15T10:00:00",
+            "bookings": []
+        },
+        {
+            "userId": "8",
+            "name": "Mountain View Hiking Resort",
+            "city": "Boulder",
+            "country": "USA",
+            "description": "Mountain View Hiking Resort in Boulder is an outdoor enthusiast's paradise. Set against a backdrop of majestic mountains, this resort offers comfortable accommodations and easy access to some of the best hiking trails in the region. Guests can participate in guided hikes, outdoor yoga sessions, and adventure workshops. The resort features a restaurant serving local cuisine, a fitness center, and a spa for relaxation after a day of exploring. With its commitment to sustainability and nature, Mountain View Hiking Resort is the ideal getaway for nature lovers and adventure seekers.",
+            "type": "Hiking Resort",
+            "adultCount": 2,
+            "childCount": 2,
+            "facilities": [
+                "Outdoor activities",
+                "Spa",
+                "Free WiFi"
+            ],
+            "pricePerNight": 220.00,
+            "starRating": 4,
+            "imageUrls": [
+              
+                "https://images.pexels.com/photos/2237601/pexels-photo-2237601.jpeg?auto=compress&cs=tinysrgb&w=800",
+                "https://images.pexels.com/photos/4567459/pexels-photo-4567459.jpeg?auto=compress&cs=tinysrgb&w=800",
+                "https://images.pexels.com/photos/3182841/pexels-photo-3182841.jpeg?auto=compress&cs=tinysrgb&w=800"
+            ],
+            "lastUpdated": "2024-08-15T10:00:00",
+            "bookings": []
+        },
+        {
+            "userId": "9",
+            "name": "Cozy Cabin Retreat",
+            "city": "Lake Tahoe",
+            "country": "USA",
+            "description": "Cozy Cabin Retreat in Lake Tahoe is the ultimate destination for those seeking a peaceful escape in nature. This charming cabin features rustic decor, a fireplace, and a fully equipped kitchen. Guests can enjoy outdoor activities such as hiking, fishing, and skiing, with nearby trails and slopes just a short drive away. The tranquil surroundings make it perfect for relaxing and reconnecting with nature. Whether you're planning a family vacation or a romantic getaway, Cozy Cabin Retreat offers the perfect blend of comfort and adventure.",
+            "type": "Cabin",
+            "adultCount": 4,
+            "childCount": 2,
+            "facilities": [
+                "Fireplace",
+                "Fully equipped kitchen",
+                "Free parking"
+            ],
+            "pricePerNight": 300.00,
+            "starRating": 3,
+            "imageUrls": [
+                "https://images.pexels.com/photos/3182841/pexels-photo-3182841.jpeg?auto=compress&cs=tinysrgb&w=800",
+            "https://images.pexels.com/photos/2237601/pexels-photo-2237601.jpeg?auto=compress&cs=tinysrgb&w=800",
+            "https://images.pexels.com/photos/4567459/pexels-photo-4567459.jpeg?auto=compress&cs=tinysrgb&w=800"
+            ],
+            "lastUpdated": "2024-08-15T10:00:00",
+            "bookings": []
+        },
+        {
+            "userId": "10",
+            "name": "Oceanfront Beach Resort",
+            "city": "Miami",
+            "country": "USA",
+            "description": "Oceanfront Beach Resort in Miami offers a tropical paradise for beach lovers and sun seekers. With direct access to pristine sandy beaches, guests can enjoy a variety of water sports, beach activities, and relaxing cabanas. The resort features luxurious rooms with ocean views, multiple dining options, and a full-service spa. Whether you're looking for adventure or relaxation, Oceanfront Beach Resort has something for everyone. From family vacations to romantic retreats, this resort ensures an unforgettable experience in a stunning coastal setting.",
+            "type": "Beach Resort",
+            "adultCount": 2,
+            "childCount": 2,
+            "facilities": [
+                "Spa",
+                "Water sports",
+                "Free WiFi"
+            ],
+            "pricePerNight": 400.00,
+            "starRating": 5,
+            "imageUrls": [
+                "https://images.unsplash.com/photo-1571618830380-843e5c3bb6a6",
+                "https://images.pexels.com/photos/3182841/pexels-photo-3182841.jpeg?auto=compress&cs=tinysrgb&w=800",
+                "https://images.pexels.com/photos/2237601/pexels-photo-2237601.jpeg?auto=compress&cs=tinysrgb&w=800",
+                "https://images.pexels.com/photos/4567459/pexels-photo-4567459.jpeg?auto=compress&cs=tinysrgb&w=800"
+            ],
+            "lastUpdated": "2024-08-15T10:00:00",
+            "bookings": []
+        },
+        {
+            "userId": "11",
+            "name": "Green Valley Golf Resort",
+            "city": "Scottsdale",
+            "country": "USA",
+            "description": "Green Valley Golf Resort in Scottsdale is a golfer's dream, offering an 18-hole championship course and luxurious accommodations. The resort features spacious rooms with stunning views of the golf course, a full-service spa, and several dining options. Guests can enjoy golf packages, practice on the driving range, or relax by the pool. With its beautiful setting and exceptional amenities, Green Valley Golf Resort is perfect for golf enthusiasts and those seeking a relaxing getaway.",
+            "type": "Golf Resort",
+            "adultCount": 2,
+            "childCount": 0,
+            "facilities": [
+                "Golf course",
+                "Spa",
+                "Free WiFi"
+            ],
+            "pricePerNight": 300.00,
+            "starRating": 4,
+            "imageUrls": [
+              
+                "https://images.pexels.com/photos/3182841/pexels-photo-3182841.jpeg?auto=compress&cs=tinysrgb&w=800",
+                "https://images.pexels.com/photos/2237601/pexels-photo-2237601.jpeg?auto=compress&cs=tinysrgb&w=800",
+                "https://images.pexels.com/photos/4567459/pexels-photo-4567459.jpeg?auto=compress&cs=tinysrgb&w=800"
+            ],
+            "lastUpdated": "2024-08-15T10:00:00",
+            "bookings": []
+        },
+        {
+            "userId": "12",
+            "name": "Cozy Motel",
+            "city": "Santa Fe",
+            "country": "USA",
+            "description": "Cozy Motel in Santa Fe is a budget-friendly option that offers comfortable rooms and convenient access to the city’s art scene. Each room is simply furnished, providing a homey atmosphere. Guests can enjoy free breakfast and WiFi, as well as easy access to local attractions. With its friendly staff and affordable rates, Cozy Motel is perfect for travelers looking to explore Santa Fe without overspending.",
+            "type": "Motel",
+            "adultCount": 2,
+            "childCount": 2,
+            "facilities": [
+                "Free breakfast",
+                "Free WiFi",
+                "Parking"
+            ],
+            "pricePerNight": 85.00,
+            "starRating": 2,
+            "imageUrls": [
+                "https://images.pexels.com/photos/3182841/pexels-photo-3182841.jpeg?auto=compress&cs=tinysrgb&w=800",
+                "https://images.pexels.com/photos/2237601/pexels-photo-2237601.jpeg?auto=compress&cs=tinysrgb&w=800",
+                "https://images.pexels.com/photos/4567459/pexels-photo-4567459.jpeg?auto=compress&cs=tinysrgb&w=800"
+            ],
+            "lastUpdated": "2024-08-15T10:00:00",
+            "bookings": []
+        },
+        {
+            "userId": "13",
+            "name": "Paradise All-Inclusive Resort",
+            "city": "Punta Cana",
+            "country": "Dominican Republic",
+            "description": "Paradise All-Inclusive Resort in Punta Cana offers a stress-free vacation with everything included. Guests can indulge in gourmet dining, unlimited drinks, and a variety of activities, all within the resort. With beautiful beaches, multiple pools, and a full-service spa, this resort is designed for relaxation and enjoyment. The friendly staff is committed to ensuring a memorable experience, making it perfect for families, couples, or anyone looking to unwind in a tropical paradise.",
+            "type": "All Inclusive",
+            "adultCount": 2,
+            "childCount": 2,
+            "facilities": [
+                "Multiple restaurants",
+                "Spa",
+                "Water sports"
+            ],
+            "pricePerNight": 600.00,
+            "starRating": 5,
+            "imageUrls": [
+                "https://images.unsplash.com/photo-1525596662741-e94ff9f26de1?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTR8fHJlc29ydHxlbnwwfHwwfHx8MA%3D%3D%22",
+                "https://images.pexels.com/photos/3182841/pexels-photo-3182841.jpeg?auto=compress&cs=tinysrgb&w=800",
+                "https://images.pexels.com/photos/2237601/pexels-photo-2237601.jpeg?auto=compress&cs=tinysrgb&w=800",
+                "https://images.pexels.com/photos/4567459/pexels-photo-4567459.jpeg?auto=compress&cs=tinysrgb&w=800"
+
+            ],
+            "lastUpdated": "2024-08-15T10:00:00",
+            "bookings": []
+        },
+        {
+            "userId": "14",
+            "name": "Pet-Friendly Lodge",
+            "city": "Aspen",
+            "country": "USA",
+            "description": "Pet-Friendly Lodge in Aspen welcomes furry companions and their owners with open arms. This cozy lodge features pet-friendly accommodations and easy access to outdoor activities. Guests can explore nearby hiking trails or enjoy a day of skiing with their pets. The lodge offers dog-friendly amenities, including bowls and treats, and the friendly staff is happy to assist with pet-related inquiries. With its warm atmosphere and scenic surroundings, Pet-Friendly Lodge ensures a delightful stay for both you and your four-legged friends.",
+            "type": "Pet Friendly",
+            "adultCount": 2,
+            "childCount": 2,
+            "facilities": [
+                "Pet-friendly rooms",
+                "Free WiFi",
+                "Parking"
+            ],
+            "pricePerNight": 150.00,
+            "starRating": 3,
+            "imageUrls": [
+                "https://images.unsplash.com/photo-1588837315306-2416ae750b54",
+                "https://images.pexels.com/photos/3182841/pexels-photo-3182841.jpeg?auto=compress&cs=tinysrgb&w=800",
+                "https://images.pexels.com/photos/2237601/pexels-photo-2237601.jpeg?auto=compress&cs=tinysrgb&w=800",
+                "https://images.pexels.com/photos/4567459/pexels-photo-4567459.jpeg?auto=compress&cs=tinysrgb&w=800"
+            ],
+            "lastUpdated": "2024-08-15T10:00:00",
+            "bookings": []
+        },
+        {
+            "userId": "15",
+            "name": "Self-Catering Haven",
+            "city": "Portland",
+            "country": "USA",
+            "description": "Self-Catering Haven in Portland offers a home-like experience for guests who prefer to cook during their stay. Each apartment is fully equipped with kitchen facilities, allowing you to prepare your meals with ease. The location is convenient, with grocery stores and local markets nearby. Guests can enjoy spacious living areas, free WiFi, and the flexibility of self-service dining. Whether you’re on a family vacation or a solo trip, Self-Catering Haven provides the comfort and convenience of home away from home.",
+            "type": "Self Catering",
+            "adultCount": 2,
+            "childCount": 2,
+            "facilities": [
+                "Fully equipped kitchen",
+                "Free parking",
+                "Free WiFi"
+            ],
+            "pricePerNight": 180.00,
+            "starRating": 3,
+            "imageUrls": [
+                "https://images.unsplash.com/photo-1586682641148-9f2b048d3a9d",
+                "https://images.pexels.com/photos/3182841/pexels-photo-3182841.jpeg?auto=compress&cs=tinysrgb&w=800",
+                "https://images.pexels.com/photos/2237601/pexels-photo-2237601.jpeg?auto=compress&cs=tinysrgb&w=800",
+                "https://images.pexels.com/photos/4567459/pexels-photo-4567459.jpeg?auto=compress&cs=tinysrgb&w=800"
+            ],
+            "lastUpdated": "2024-08-15T10:00:00",
+            "bookings": []
+        }
+    ,
+    
+    {
+        "userId": "1",
+        "name": "Miller, Rogers and Richard",
+        "city": "Peterland",
+        "country": "USA",
+        "description": "Represent experience while young mission ever. Official so same group large city project.",
+        "type": "Resort",
+        "adultCount": 2,
+        "childCount": 1,
+        "facilities": [
+            "Free WiFi",
+            "Spa"
+        ],
+        "pricePerNight": 426.57,
+        "starRating": 1,
+        "imageUrls": [
+            "https://images.pexels.com/photos/3182841/pexels-photo-3182841.jpeg?auto=compress&cs=tinysrgb&w=800",
+            "https://images.pexels.com/photos/2237601/pexels-photo-2237601.jpeg?auto=compress&cs=tinysrgb&w=800",
+            "https://images.pexels.com/photos/4567459/pexels-photo-4567459.jpeg?auto=compress&cs=tinysrgb&w=800"
+        ],
+        "lastUpdated": "2024-08-25T18:17:02",
+        "bookings": []
+    },
+    {
+        "userId": "2",
+        "name": "Smith, Downs and Ryan",
+        "city": "Lindsayfurt",
+        "country": "USA",
+        "description": "Then nor election security.\nEnvironmental suggest task artist to sister happy. Improve environmental exactly may media suddenly.",
+        "type": "Apartment",
+        "adultCount": 1,
+        "childCount": 2,
+        "facilities": [
+            "Parking",
+            "Spa",
+            "Breakfast included",
+            "Gym",
+            "Free WiFi"
+        ],
+        "pricePerNight": 454.23,
+        "starRating": 2,
+        "imageUrls": [
+            "https://images.unsplash.com/photo-1505678261036-a3fcc5e884ee",
+            "https://images.unsplash.com/photo-1506748686214-e9df14d4d9d0"
+        ],
+        "lastUpdated": "2024-03-04T12:53:20",
+        "bookings": []
+    },
+    {
+        "userId": "3",
+        "name": "Owens, Bradley and Robertson",
+        "city": "Port Stevenside",
+        "country": "USA",
+        "description": "Character structure place sing defense. Money start everybody development. Who example south say. Next school week though trip measure life.",
+        "type": "Hotel",
+        "adultCount": 4,
+        "childCount": 2,
+        "facilities": [
+            "Parking",
+            "Free WiFi"
+        ],
+        "pricePerNight": 189.73,
+        "starRating": 5,
+        "imageUrls": [
+            "https://images.unsplash.com/photo-1505678261036-a3fcc5e884ee",
+            "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4"
+        ],
+        "lastUpdated": "2024-08-05T00:38:25",
+        "bookings": []
+    },
+    {
+        "userId": "4",
+        "name": "Kennedy, Barber and Harris",
+        "city": "Lake Chrisberg",
+        "country": "USA",
+        "description": "Specific our house challenge arm. Current value pay along local. Hear next huge.\nSpecific later often other stop. Bed word kitchen conference for.",
+        "type": "Hostel",
+        "adultCount": 2,
+        "childCount": 0,
+        "facilities": [
+            "Breakfast included"
+        ],
+        "pricePerNight": 461.11,
+        "starRating": 3,
+        "imageUrls": [
+            "https://images.unsplash.com/photo-1551918120-973719e8dc0b"
+        ],
+        "lastUpdated": "2024-06-11T09:20:05",
+        "bookings": []
+    },
+    {
+        "userId": "5",
+        "name": "Garcia and Sons",
+        "city": "Yvettebury",
+        "country": "USA",
+        "description": "Development education since if those than all. White southern ago argue strategy own fill. Dark recent couple who food billion.\nVisit parent street what you the. Perform special what interest.",
+        "type": "Hostel",
+        "adultCount": 3,
+        "childCount": 0,
+        "facilities": [
+            "Spa",
+            "Pool"
+        ],
+        "pricePerNight": 214.68,
+        "starRating": 1,
+        "imageUrls": [
+            "https://images.unsplash.com/photo-1506748686214-e9df14d4d9d0",
+            "https://images.unsplash.com/photo-1522708323590-d24dbb6b0267"
+        ],
+        "lastUpdated": "2024-02-06T06:13:46",
+        "bookings": []
+    },
+    {
+        "userId": "6",
+        "name": "Matthews Ltd",
+        "city": "New Matthew",
+        "country": "USA",
+        "description": "Painting difficult game positive reflect church. Republican upon return reason later first. Despite become fact whom fall.",
+        "type": "Hotel",
+        "adultCount": 2,
+        "childCount": 1,
+        "facilities": [
+            "Gym",
+            "Spa",
+            "Parking"
+        ],
+        "pricePerNight": 389.87,
+        "starRating": 3,
+        "imageUrls": [
+            "https://images.unsplash.com/photo-1551918120-973719e8dc0b"
+        ],
+        "lastUpdated": "2024-02-29T20:14:02",
+        "bookings": []
+    },
+    {
+        "userId": "7",
+        "name": "Williams, Smith and Johnson",
+        "city": "Hollymouth",
+        "country": "USA",
+        "description": "Possible house nice recent song sister. Ago too rise thought than voice summer. Continue decision group always.\nLook sell result name help. Appear wonder score much.",
+        "type": "Hostel",
+        "adultCount": 4,
+        "childCount": 1,
+        "facilities": [
+            "Gym",
+            "Breakfast included"
+        ],
+        "pricePerNight": 413.59,
+        "starRating": 3,
+        "imageUrls": [
+            "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4"
+        ],
+        "lastUpdated": "2024-09-14T06:24:00",
+        "bookings": []
+    },
+    {
+        "userId": "8",
+        "name": "Bradley, Wright and Williams",
+        "city": "Bauerburgh",
+        "country": "USA",
+        "description": "Partner ability oil space. Response green seat she buy anyone minute. Suggest reflect pattern commercial.\nNeed discuss or by strategy green. Head man trouble tough position begin.",
+        "type": "Resort",
+        "adultCount": 4,
+        "childCount": 3,
+        "facilities": [
+            "Gym",
+            "Spa",
+            "Pool",
+            "Breakfast included"
+        ],
+        "pricePerNight": 283.53,
+        "starRating": 3,
+        "imageUrls": [
+            "https://images.unsplash.com/photo-1506748686214-e9df14d4d9d0"
+        ],
+        "lastUpdated": "2024-08-21T07:11:14",
+        "bookings": []
+    },
+    {
+        "userId": "9",
+        "name": "Bryan, Smith and Bauer",
+        "city": "Samanthaborough",
+        "country": "USA",
+        "description": "Language born quality behind wonder sense nice. Box establish toward chance toward.\nArtist town hold exist language bar. Field side later image. Us people standard throw skill eye.",
+        "type": "Apartment",
+        "adultCount": 4,
+        "childCount": 1,
+        "facilities": [
+            "Parking",
+            "Free WiFi",
+            "Gym"
+        ],
+        "pricePerNight": 201.65,
+        "starRating": 3,
+        "imageUrls": [
+            "https://images.unsplash.com/photo-1505678261036-a3fcc5e884ee"
+        ],
+        "lastUpdated": "2024-04-08T06:25:54",
+        "bookings": []
+    },
+    {
+        "userId": "10",
+        "name": "Day, Johnson and Buchanan",
+        "city": "Rowemouth",
+        "country": "USA",
+        "description": "Move finish piece discuss cost five. Determine rise expect month event red. Seat rich she surface. Economic enter attack I why wonder.",
+        "type": "Resort",
+        "adultCount": 4,
+        "childCount": 3,
+        "facilities": [
+            "Pool",
+            "Spa"
+        ],
+        "pricePerNight": 408.92,
+        "starRating": 1,
+        "imageUrls": [
+            "https://images.unsplash.com/photo-1551918120-973719e8dc0b",
+            "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4"
+        ],
+        "lastUpdated": "2024-04-13T03:04:33",
+        "bookings": []
+    },
+    {
+        "userId": "11",
+        "name": "Phillips-Collins",
+        "city": "East Maryton",
+        "country": "USA",
+        "description": "Ability physical per majority. Realize seat certain prove bed wrong listen cost. House strategy sport account strategy.",
+        "type": "Resort",
+        "adultCount": 4,
+        "childCount": 3,
+        "facilities": [
+            "Parking",
+            "Pool"
+        ],
+        "pricePerNight": 274.42,
+        "starRating": 1,
+        "imageUrls": [
+            "https://images.unsplash.com/photo-1505678261036-a3fcc5e884ee",
+            "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4",
+            "https://images.unsplash.com/photo-1522708323590-d24dbb6b0267"
+        ],
+        "lastUpdated": "2024-06-06T09:39:16",
+        "bookings": []
+    },
+    {
+        "userId": "12",
+        "name": "Stewart, Armstrong and Ponce",
+        "city": "Victoriahaven",
+        "country": "USA",
+        "description": "Before station maybe begin research. Remember place Democrat impact. Million man open house have.\nHow drop around all. Image reduce city firm.",
+        "type": "Hotel",
+        "adultCount": 2,
+        "childCount": 2,
+        "facilities": [
+            "Parking",
+            "Breakfast included",
+            "Gym",
+            "Spa",
+            "Free WiFi"
+        ],
+        "pricePerNight": 363.1,
+        "starRating": 1,
+        "imageUrls": [
+            "https://images.unsplash.com/photo-1551918120-973719e8dc0b",
+            "https://images.unsplash.com/photo-1506748686214-e9df14d4d9d0",
+            "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4"
+        ],
+        "lastUpdated": "2024-03-01T03:11:42",
+        "bookings": []
+    },
+    {
+        "userId": "13",
+        "name": "Andersen Group",
+        "city": "Caitlynfurt",
+        "country": "USA",
+        "description": "Keep energy every view view range. Attorney painting fill head start customer perhaps rise.",
+        "type": "Apartment",
+        "adultCount": 3,
+        "childCount": 2,
+        "facilities": [
+            "Gym",
+            "Spa",
+            "Free WiFi"
+        ],
+        "pricePerNight": 276.92,
+        "starRating": 3,
+        "imageUrls": [
+            "https://images.unsplash.com/photo-1506748686214-e9df14d4d9d0",
+            "https://images.unsplash.com/photo-1522708323590-d24dbb6b0267"
+        ],
+        "lastUpdated": "2024-02-23T16:50:40",
+        "bookings": []
+    },
+    {
+        "userId": "14",
+        "name": "Young, Gibson and Browning",
+        "city": "Amandahaven",
+        "country": "USA",
+        "description": "Management cup less produce thus. Mean wish how over nature.\nSomeone career today enjoy. Professor democratic image blood seven it teacher simple.",
+        "type": "Hotel",
+        "adultCount": 4,
+        "childCount": 3,
+        "facilities": [
+            "Pool",
+            "Free WiFi",
+            "Gym",
+            "Breakfast included",
+            "Parking"
+        ],
+        "pricePerNight": 385.81,
+        "starRating": 5,
+        "imageUrls": [
+            "https://images.unsplash.com/photo-1522708323590-d24dbb6b0267"
+        ],
+        "lastUpdated": "2024-09-02T09:24:40",
+        "bookings": []
+    },
+    {
+        "userId": "15",
+        "name": "Watts PLC",
+        "city": "Jenniferhaven",
+        "country": "USA",
+        "description": "Day respond onto appear PM have matter.\nCan painting husband produce car. Nature ok beat so right perhaps without because. Lot right budget almost can wind.",
+        "type": "Apartment",
+        "adultCount": 2,
+        "childCount": 1,
+        "facilities": [
+            "Gym",
+            "Spa",
+            "Breakfast included",
+            "Pool"
+        ],
+        "pricePerNight": 277.3,
+        "starRating": 1,
+        "imageUrls": [
+            "https://images.unsplash.com/photo-1505678261036-a3fcc5e884ee",
+            "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4"
+        ],
+        "lastUpdated": "2024-07-02T17:33:08",
+        "bookings": []
+    },
+    {
+        "userId": "16",
+        "name": "Espinoza Group",
+        "city": "Greenview",
+        "country": "USA",
+        "description": "People remember among college.\nThrow continue while fast ago leave despite. Stop specific account into red before.",
+        "type": "Hostel",
+        "adultCount": 1,
+        "childCount": 2,
+        "facilities": [
+            "Spa",
+            "Breakfast included",
+            "Pool"
+        ],
+        "pricePerNight": 75.98,
+        "starRating": 4,
+        "imageUrls": [
+            "https://images.unsplash.com/photo-1506748686214-e9df14d4d9d0"
+        ],
+        "lastUpdated": "2024-04-18T19:05:14",
+        "bookings": []
+    },
+    {
+        "userId": "17",
+        "name": "Sanders, Mckenzie and Ruiz",
+        "city": "Marvinport",
+        "country": "USA",
+        "description": "Within person than understand. City miss see success water.\nIndeed note according spring hospital. Behind former left catch.",
+        "type": "Resort",
+        "adultCount": 1,
+        "childCount": 0,
+        "facilities": [
+            "Spa",
+            "Breakfast included"
+        ],
+        "pricePerNight": 475.04,
+        "starRating": 1,
+        "imageUrls": [
+            "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4",
+            "https://images.unsplash.com/photo-1506748686214-e9df14d4d9d0",
+            "https://images.unsplash.com/photo-1551918120-973719e8dc0b"
+        ],
+        "lastUpdated": "2024-07-31T08:20:15",
+        "bookings": []
+    },
+    {
+        "userId": "18",
+        "name": "Martinez-Young",
+        "city": "Shepardhaven",
+        "country": "USA",
+        "description": "View ability interest. Seem region serve after role recognize remain.\nIndustry woman central great human white apply. Lot hair campaign deal unit region outside. Car section choose they friend long.",
+        "type": "Hostel",
+        "adultCount": 3,
+        "childCount": 1,
+        "facilities": [
+            "Gym",
+            "Free WiFi",
+            "Breakfast included",
+            "Pool",
+            "Spa",
+            "Parking"
+        ],
+        "pricePerNight": 245.97,
+        "starRating": 2,
+        "imageUrls": [
+            "https://images.unsplash.com/photo-1551918120-973719e8dc0b",
+            "https://images.unsplash.com/photo-1506748686214-e9df14d4d9d0",
+            "https://images.unsplash.com/photo-1522708323590-d24dbb6b0267"
+        ],
+        "lastUpdated": "2024-05-04T09:11:23",
+        "bookings": []
+    },
+    {
+        "userId": "19",
+        "name": "Phillips, Garcia and Barber",
+        "city": "North Beverly",
+        "country": "USA",
+        "description": "Rock make race fish city.\nOnly trial main step arm. Present itself any purpose sister simply.\nHot tend game entire. Protect sea receive their.",
+        "type": "Apartment",
+        "adultCount": 3,
+        "childCount": 0,
+        "facilities": [
+            "Free WiFi"
+        ],
+        "pricePerNight": 416.11,
+        "starRating": 3,
+        "imageUrls": [
+            "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4"
+        ],
+        "lastUpdated": "2024-06-09T10:24:22",
+        "bookings": []
+    },
+    {
+        "userId": "20",
+        "name": "Grimes, Brock and Colon",
+        "city": "East Amy",
+        "country": "USA",
+        "description": "Personal create test event. Identify difficult case draw style something artist including.\nRegion charge throughout court management common against. Worry current end enough wide career.",
+        "type": "Resort",
+        "adultCount": 1,
+        "childCount": 3,
+        "facilities": [
+            "Gym",
+            "Free WiFi",
+            "Parking",
+            "Pool",
+            "Spa"
+        ],
+        "pricePerNight": 148.91,
+        "starRating": 4,
+        "imageUrls": [
+            "https://images.unsplash.com/photo-1506748686214-e9df14d4d9d0",
+            "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4"
+        ],
+        "lastUpdated": "2024-02-24T22:25:24",
+        "bookings": []
+    },
+    {
+        "userId": "21",
+        "name": "Scott-Farmer",
+        "city": "East Brian",
+        "country": "USA",
+        "description": "Garden nation politics scientist ground. Major later institution situation.",
+        "type": "Resort",
+        "adultCount": 1,
+        "childCount": 1,
+        "facilities": [
+            "Breakfast included",
+            "Spa",
+            "Parking"
+        ],
+        "pricePerNight": 257.24,
+        "starRating": 4,
+        "imageUrls": [
+            "https://images.unsplash.com/photo-1551918120-973719e8dc0b"
+        ],
+        "lastUpdated": "2024-02-11T23:31:24",
+        "bookings": []
+    },
+    {
+        "userId": "22",
+        "name": "Carter, Johnson and Freeman",
+        "city": "East Sarahport",
+        "country": "USA",
+        "description": "Performance somebody news see current threat none care. Like treatment pull never fear beat law.\nReady institution some. Painting gun little station into purpose option. Central if tough soon cut.",
+        "type": "Resort",
+        "adultCount": 3,
+        "childCount": 0,
+        "facilities": [
+            "Gym",
+            "Breakfast included",
+            "Parking",
+            "Spa",
+            "Free WiFi",
+            "Pool"
+        ],
+        "pricePerNight": 335.62,
+        "starRating": 2,
+        "imageUrls": [
+            "https://images.unsplash.com/photo-1522708323590-d24dbb6b0267"
+        ],
+        "lastUpdated": "2024-05-14T19:10:38",
+        "bookings": []
+    },
+    {
+        "userId": "23",
+        "name": "Molina and Sons",
+        "city": "New Kelly",
+        "country": "USA",
+        "description": "Field up firm back. Write of only. Each tell billion center list strong miss.\nBoy north dog. Peace mention sound phone.",
+        "type": "Hostel",
+        "adultCount": 1,
+        "childCount": 0,
+        "facilities": [
+            "Gym"
+        ],
+        "pricePerNight": 109.25,
+        "starRating": 1,
+        "imageUrls": [
+            "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4",
+            "https://images.unsplash.com/photo-1551918120-973719e8dc0b"
+        ],
+        "lastUpdated": "2024-10-27T07:45:23",
+        "bookings": []
+    },
+    {
+        "userId": "24",
+        "name": "Marshall-Walker",
+        "city": "West Williambury",
+        "country": "USA",
+        "description": "Response energy create design sound kind hundred. Anyone material guy management.\nClaim education wrong kind. Parent drive friend remember form left.",
+        "type": "Hostel",
+        "adultCount": 1,
+        "childCount": 2,
+        "facilities": [
+            "Gym"
+        ],
+        "pricePerNight": 439.05,
+        "starRating": 3,
+        "imageUrls": [
+            "https://images.unsplash.com/photo-1551918120-973719e8dc0b",
+            "https://images.unsplash.com/photo-1505678261036-a3fcc5e884ee",
+            "https://images.unsplash.com/photo-1506748686214-e9df14d4d9d0"
+        ],
+        "lastUpdated": "2024-06-29T04:38:52",
+        "bookings": []
+    },
+    {
+        "userId": "25",
+        "name": "Taylor Inc",
+        "city": "Port Keithside",
+        "country": "USA",
+        "description": "During single perform if. History former very figure write suddenly through. Budget nearly court fish.",
+        "type": "Hostel",
+        "adultCount": 1,
+        "childCount": 1,
+        "facilities": [
+            "Parking",
+            "Free WiFi",
+            "Spa",
+            "Gym"
+        ],
+        "pricePerNight": 338.56,
+        "starRating": 5,
+        "imageUrls": [
+            "https://images.unsplash.com/photo-1505678261036-a3fcc5e884ee",
+            "https://images.unsplash.com/photo-1506748686214-e9df14d4d9d0",
+            "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4"
+        ],
+        "lastUpdated": "2024-08-29T17:24:03",
+        "bookings": []
+    },
+    {
+        "userId": "26",
+        "name": "Clayton-Baldwin",
+        "city": "Michaelborough",
+        "country": "USA",
+        "description": "Both attorney thing. Exist next wish language tell. Power travel president.\nLawyer per including computer. Last hard college door.",
+        "type": "Hostel",
+        "adultCount": 4,
+        "childCount": 1,
+        "facilities": [
+            "Breakfast included",
+            "Spa"
+        ],
+        "pricePerNight": 429.35,
+        "starRating": 1,
+        "imageUrls": [
+            "https://images.unsplash.com/photo-1506748686214-e9df14d4d9d0",
+            "https://images.unsplash.com/photo-1505678261036-a3fcc5e884ee",
+            "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4"
+        ],
+        "lastUpdated": "2024-01-06T02:04:28",
+        "bookings": []
+    },
+    {
+        "userId": "27",
+        "name": "Jones-Davis",
+        "city": "Lindaside",
+        "country": "USA",
+        "description": "Probably by move natural. Can apply defense get simple support hit.\nSide so way exist team interview general very. Budget else price behind heart interest. Nor perform everything tax culture impact.",
+        "type": "Apartment",
+        "adultCount": 4,
+        "childCount": 3,
+        "facilities": [
+            "Parking",
+            "Gym",
+            "Breakfast included",
+            "Pool",
+            "Spa"
+        ],
+        "pricePerNight": 249.77,
+        "starRating": 1,
+        "imageUrls": [
+            "https://images.unsplash.com/photo-1506748686214-e9df14d4d9d0",
+            "https://images.unsplash.com/photo-1505678261036-a3fcc5e884ee",
+            "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4"
+        ],
+        "lastUpdated": "2024-01-09T01:08:39",
+        "bookings": []
+    },
+    {
+        "userId": "28",
+        "name": "Swanson PLC",
+        "city": "Jenniferstad",
+        "country": "USA",
+        "description": "Population but TV where bar. Must off town husband quite include join general.",
+        "type": "Resort",
+        "adultCount": 1,
+        "childCount": 2,
+        "facilities": [
+            "Pool",
+            "Free WiFi",
+            "Breakfast included",
+            "Parking",
+            "Spa"
+        ],
+        "pricePerNight": 296.38,
+        "starRating": 3,
+        "imageUrls": [
+            "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4",
+            "https://images.unsplash.com/photo-1505678261036-a3fcc5e884ee"
+        ],
+        "lastUpdated": "2024-07-10T08:25:52",
+        "bookings": []
+    },
+    {
+        "userId": "29",
+        "name": "Mendoza and Sons",
+        "city": "New Sandra",
+        "country": "USA",
+        "description": "Shake force watch room.\nGeneral stay total fear. Affect evidence pass wind themselves. Increase stay process seek.\nWho listen particularly important compare.",
+        "type": "Hotel",
+        "adultCount": 2,
+        "childCount": 3,
+        "facilities": [
+            "Breakfast included",
+            "Pool"
+        ],
+        "pricePerNight": 468.08,
+        "starRating": 1,
+        "imageUrls": [
+            "https://images.unsplash.com/photo-1522708323590-d24dbb6b0267"
+        ],
+        "lastUpdated": "2024-01-11T17:32:56",
+        "bookings": []
+    },
+    {
+        "userId": "30",
+        "name": "Singleton, Morris and Anderson",
+        "city": "Richardsonfurt",
+        "country": "USA",
+        "description": "Trip car open travel sister. Represent order mission onto least hotel her who. Start young from food drive fear head.",
+        "type": "Hostel",
+        "adultCount": 4,
+        "childCount": 2,
+        "facilities": [
+            "Gym",
+            "Breakfast included"
+        ],
+        "pricePerNight": 245.32,
+        "starRating": 1,
+        "imageUrls": [
+            "https://images.unsplash.com/photo-1506748686214-e9df14d4d9d0",
+            "https://images.unsplash.com/photo-1505678261036-a3fcc5e884ee",
+            "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4"
+        ],
+        "lastUpdated": "2024-06-01T09:13:56",
+        "bookings": []
+    },
+    {
+        "userId": "31",
+        "name": "Hall-Morgan",
+        "city": "Greeneview",
+        "country": "USA",
+        "description": "Hold alone moment throughout. Item industry debate Mrs. Training poor care. Manage apply law someone spend shoulder.\nCenter hold wonder radio name of. Size exist sell again yard resource nearly.",
+        "type": "Resort",
+        "adultCount": 2,
+        "childCount": 0,
+        "facilities": [
+            "Parking",
+            "Spa",
+            "Gym",
+            "Pool",
+            "Breakfast included"
+        ],
+        "pricePerNight": 167.64,
+        "starRating": 3,
+        "imageUrls": [
+            "https://images.unsplash.com/photo-1505678261036-a3fcc5e884ee",
+            "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4"
+        ],
+        "lastUpdated": "2024-09-27T05:09:51",
+        "bookings": []
+    },
+    {
+        "userId": "32",
+        "name": "Gonzalez-Prince",
+        "city": "Lake Stephenfort",
+        "country": "USA",
+        "description": "Daughter remember team also top necessary least. Receive impact than Congress.",
+        "type": "Hotel",
+        "adultCount": 4,
+        "childCount": 3,
+        "facilities": [
+            "Parking",
+            "Gym"
+        ],
+        "pricePerNight": 119.53,
+        "starRating": 3,
+        "imageUrls": [
+            "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4",
+            "https://images.unsplash.com/photo-1551918120-973719e8dc0b"
+        ],
+        "lastUpdated": "2024-04-13T14:40:34",
+        "bookings": []
+    },
+    {
+        "userId": "33",
+        "name": "Ramos-Grant",
+        "city": "East Brian",
+        "country": "USA",
+        "description": "Push section relationship. Hundred keep scene way address stand.\nHerself whatever though way. Year service source should film policy. Character reach perhaps long.",
+        "type": "Resort",
+        "adultCount": 3,
+        "childCount": 0,
+        "facilities": [
+            "Breakfast included"
+        ],
+        "pricePerNight": 293.39,
+        "starRating": 1,
+        "imageUrls": [
+            "https://images.unsplash.com/photo-1506748686214-e9df14d4d9d0",
+            "https://images.unsplash.com/photo-1522708323590-d24dbb6b0267"
+        ],
+        "lastUpdated": "2024-03-28T00:28:45",
+        "bookings": []
+    },
+    {
+        "userId": "34",
+        "name": "Washington PLC",
+        "city": "Pricetown",
+        "country": "USA",
+        "description": "Hospital real wish action position. Race east evidence word. Girl clear finally beyond society treat.\nSpecial grow them case. Hour best local to yes main ground marriage.",
+        "type": "Resort",
+        "adultCount": 1,
+        "childCount": 0,
+        "facilities": [
+            "Spa",
+            "Pool"
+        ],
+        "pricePerNight": 87.06,
+        "starRating": 1,
+        "imageUrls": [
+            "https://images.unsplash.com/photo-1506748686214-e9df14d4d9d0",
+            "https://images.unsplash.com/photo-1505678261036-a3fcc5e884ee",
+            "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4"
+        ],
+        "lastUpdated": "2024-10-01T14:03:35",
+        "bookings": []
+    },
+    {
+        "userId": "35",
+        "name": "Clark Group",
+        "city": "Lake Donnaland",
+        "country": "USA",
+        "description": "Threat matter less might run receive none. Help always ahead beat since many. Beautiful eye nor sound.\nDespite firm population shake. Agreement picture even well which. Wait science cover item.",
+        "type": "Hostel",
+        "adultCount": 3,
+        "childCount": 3,
+        "facilities": [
+            "Breakfast included",
+            "Pool"
+        ],
+        "pricePerNight": 378.03,
+        "starRating": 4,
+        "imageUrls": [
+            "https://images.unsplash.com/photo-1522708323590-d24dbb6b0267",
+            "https://images.unsplash.com/photo-1505678261036-a3fcc5e884ee"
+        ],
+        "lastUpdated": "2024-05-05T17:36:28",
+        "bookings": []
+    },
+    {
+        "userId": "36",
+        "name": "Boone, Walton and Landry",
+        "city": "Millerbury",
+        "country": "USA",
+        "description": "Wear seek get. Law friend try individual down seven.\nFact project teacher woman prevent it. Property drug environment common kid maybe organization box. Admit avoid soon already practice.",
+        "type": "Hotel",
+        "adultCount": 3,
+        "childCount": 1,
+        "facilities": [
+            "Gym",
+            "Breakfast included",
+            "Free WiFi"
+        ],
+        "pricePerNight": 141.31,
+        "starRating": 2,
+        "imageUrls": [
+            "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4",
+            "https://images.unsplash.com/photo-1505678261036-a3fcc5e884ee",
+            "https://images.unsplash.com/photo-1522708323590-d24dbb6b0267"
+        ],
+        "lastUpdated": "2024-07-26T08:48:33",
+        "bookings": []
+    },
+    {
+        "userId": "37",
+        "name": "Cole-Wallace",
+        "city": "New Jenniferton",
+        "country": "USA",
+        "description": "Improve site item around. Growth which also treatment discover game walk. Involve Congress camera war become answer. Shake star study blood response material two.",
+        "type": "Hostel",
+        "adultCount": 2,
+        "childCount": 1,
+        "facilities": [
+            "Pool"
+        ],
+        "pricePerNight": 59.71,
+        "starRating": 4,
+        "imageUrls": [
+            "https://images.unsplash.com/photo-1551918120-973719e8dc0b"
+        ],
+        "lastUpdated": "2024-01-23T18:56:11",
+        "bookings": []
+    },
+    {
+        "userId": "38",
+        "name": "Anderson Inc",
+        "city": "Kathleenborough",
+        "country": "USA",
+        "description": "Cut computer travel. Research Mr high. Bank option increase three same people item defense.",
+        "type": "Hostel",
+        "adultCount": 3,
+        "childCount": 1,
+        "facilities": [
+            "Breakfast included",
+            "Parking"
+        ],
+        "pricePerNight": 454.16,
+        "starRating": 5,
+        "imageUrls": [
+            "https://images.unsplash.com/photo-1505678261036-a3fcc5e884ee"
+        ],
+        "lastUpdated": "2024-09-13T02:59:27",
+        "bookings": []
+    },
+    {
+        "userId": "39",
+        "name": "Rowe PLC",
+        "city": "North Janet",
+        "country": "USA",
+        "description": "These house decide improve. Establish position available national week oil. Art community month job police minute cut responsibility.",
+        "type": "Apartment",
+        "adultCount": 2,
+        "childCount": 1,
+        "facilities": [
+            "Free WiFi",
+            "Pool",
+            "Parking",
+            "Spa",
+            "Gym",
+            "Breakfast included"
+        ],
+        "pricePerNight": 284.8,
+        "starRating": 4,
+        "imageUrls": [
+            "https://images.unsplash.com/photo-1522708323590-d24dbb6b0267",
+            "https://images.unsplash.com/photo-1551918120-973719e8dc0b"
+        ],
+        "lastUpdated": "2024-05-09T06:06:42",
+        "bookings": []
+    },
+    {
+        "userId": "40",
+        "name": "Bradford and Sons",
+        "city": "Harrisborough",
+        "country": "USA",
+        "description": "Significant add prevent prevent none great teacher. Read beyond how book no street.",
+        "type": "Hotel",
+        "adultCount": 1,
+        "childCount": 2,
+        "facilities": [
+            "Breakfast included",
+            "Free WiFi",
+            "Spa",
+            "Parking",
+            "Pool"
+        ],
+        "pricePerNight": 480.6,
+        "starRating": 2,
+        "imageUrls": [
+            "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4",
+            "https://images.unsplash.com/photo-1505678261036-a3fcc5e884ee"
+        ],
+        "lastUpdated": "2024-01-05T02:46:29",
+        "bookings": []
+    },
+    {
+        "userId": "41",
+        "name": "Bonilla, Cook and Cox",
+        "city": "Cheyennebury",
+        "country": "USA",
+        "description": "Final dog low role black fear. By yourself clearly.\nTraining in drop man race of every. Laugh something thought turn security reach important. Drop culture result officer mother door.",
+        "type": "Hostel",
+        "adultCount": 4,
+        "childCount": 3,
+        "facilities": [
+            "Spa",
+            "Breakfast included",
+            "Pool",
+            "Parking",
+            "Gym"
+        ],
+        "pricePerNight": 89.3,
+        "starRating": 2,
+        "imageUrls": [
+            "https://images.unsplash.com/photo-1551918120-973719e8dc0b"
+        ],
+        "lastUpdated": "2024-08-18T12:58:29",
+        "bookings": []
+    },
+    {
+        "userId": "42",
+        "name": "Miller, Walker and Morris",
+        "city": "Lake Leeberg",
+        "country": "USA",
+        "description": "Think provide member throughout address other. Series task audience center institution. Huge answer station skin edge church.",
+        "type": "Apartment",
+        "adultCount": 4,
+        "childCount": 2,
+        "facilities": [
+            "Pool",
+            "Breakfast included"
+        ],
+        "pricePerNight": 144.95,
+        "starRating": 4,
+        "imageUrls": [
+            "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4",
+            "https://images.unsplash.com/photo-1551918120-973719e8dc0b"
+        ],
+        "lastUpdated": "2024-08-23T23:47:49",
+        "bookings": []
+    },
+    {
+        "userId": "43",
+        "name": "Stafford-Russell",
+        "city": "Elizabethfort",
+        "country": "USA",
+        "description": "Third particular might a. Somebody discover you reflect take lawyer product. Base citizen easy determine color character.",
+        "type": "Apartment",
+        "adultCount": 4,
+        "childCount": 1,
+        "facilities": [
+            "Parking",
+            "Free WiFi",
+            "Gym",
+            "Spa"
+        ],
+        "pricePerNight": 491.09,
+        "starRating": 1,
+        "imageUrls": [
+            "https://images.unsplash.com/photo-1506748686214-e9df14d4d9d0"
+        ],
+        "lastUpdated": "2024-01-04T13:52:53",
+        "bookings": []
+    },
+    {
+        "userId": "44",
+        "name": "Williams-Parker",
+        "city": "North Scottborough",
+        "country": "USA",
+        "description": "Loss bill traditional whatever like over. Sell cell do deal expect structure recent.",
+        "type": "Hotel",
+        "adultCount": 2,
+        "childCount": 0,
+        "facilities": [
+            "Pool",
+            "Breakfast included",
+            "Parking",
+            "Gym",
+            "Spa",
+            "Free WiFi"
+        ],
+        "pricePerNight": 81.91,
+        "starRating": 4,
+        "imageUrls": [
+            "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4",
+            "https://images.unsplash.com/photo-1551918120-973719e8dc0b"
+        ],
+        "lastUpdated": "2024-09-29T12:49:53",
+        "bookings": []
+    },
+    {
+        "userId": "45",
+        "name": "Davis-Morrison",
+        "city": "Patelshire",
+        "country": "USA",
+        "description": "Decision movie room because draw very little expert. Game himself mind when great.\nHer state long science from. Can action by company.",
+        "type": "Apartment",
+        "adultCount": 3,
+        "childCount": 2,
+        "facilities": [
+            "Spa",
+            "Breakfast included"
+        ],
+        "pricePerNight": 400.0,
+        "starRating": 1,
+        "imageUrls": [
+            "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4",
+            "https://images.unsplash.com/photo-1551918120-973719e8dc0b"
+        ],
+        "lastUpdated": "2024-02-08T12:34:51",
+        "bookings": []
+    },
+    {
+        "userId": "46",
+        "name": "Salinas-Avila",
+        "city": "South Brittany",
+        "country": "USA",
+        "description": "Eight interview challenge same. Also enter always life skin happen finally.\nProduction control arrive from box need our. Career account however song smile brother call.",
+        "type": "Resort",
+        "adultCount": 3,
+        "childCount": 1,
+        "facilities": [
+            "Gym",
+            "Pool",
+            "Free WiFi",
+            "Parking"
+        ],
+        "pricePerNight": 315.59,
+        "starRating": 2,
+        "imageUrls": [
+            "https://images.unsplash.com/photo-1506748686214-e9df14d4d9d0",
+            "https://images.unsplash.com/photo-1522708323590-d24dbb6b0267"
+        ],
+        "lastUpdated": "2024-03-31T09:20:35",
+        "bookings": []
+    },
+    {
+        "userId": "47",
+        "name": "White-Cohen",
+        "city": "North George",
+        "country": "USA",
+        "description": "Right federal serve significant production feel page. Police realize TV number. Fast reveal along.\nGrow thank improve third part grow give. Mrs see small fire suddenly season.",
+        "type": "Hotel",
+        "adultCount": 2,
+        "childCount": 0,
+        "facilities": [
+            "Spa",
+            "Free WiFi",
+            "Parking",
+            "Pool",
+            "Gym",
+            "Breakfast included"
+        ],
+        "pricePerNight": 329.57,
+        "starRating": 5,
+        "imageUrls": [
+            "https://images.unsplash.com/photo-1506748686214-e9df14d4d9d0",
+            "https://images.unsplash.com/photo-1551918120-973719e8dc0b",
+            "https://images.unsplash.com/photo-1522708323590-d24dbb6b0267"
+        ],
+        "lastUpdated": "2024-04-08T12:34:42",
+        "bookings": []
+    },
+    {
+        "userId": "48",
+        "name": "Diaz Inc",
+        "city": "Allisonmouth",
+        "country": "USA",
+        "description": "Popular partner social teacher. Evidence watch important attention time organization. Industry bad western economic month stock within.",
+        "type": "Resort",
+        "adultCount": 3,
+        "childCount": 2,
+        "facilities": [
+            "Pool",
+            "Free WiFi"
+        ],
+        "pricePerNight": 340.5,
+        "starRating": 2,
+        "imageUrls": [
+            "https://images.unsplash.com/photo-1522708323590-d24dbb6b0267",
+            "https://images.unsplash.com/photo-1505678261036-a3fcc5e884ee",
+            "https://images.unsplash.com/photo-1506748686214-e9df14d4d9d0"
+        ],
+        "lastUpdated": "2024-02-20T04:00:56",
+        "bookings": []
+    },
+    {
+        "userId": "49",
+        "name": "Parrish Ltd",
+        "city": "West Kristinafurt",
+        "country": "USA",
+        "description": "Station impact simple people recognize fight number. Role yard benefit west movie will.\nMeasure worry table husband society. Difficult article eat who others Congress charge. Out issue behavior.",
+        "type": "Hotel",
+        "adultCount": 1,
+        "childCount": 1,
+        "facilities": [
+            "Gym",
+            "Free WiFi"
+        ],
+        "pricePerNight": 148.51,
+        "starRating": 5,
+        "imageUrls": [
+            "https://images.unsplash.com/photo-1506748686214-e9df14d4d9d0",
+            "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4"
+        ],
+        "lastUpdated": "2024-09-21T17:21:34",
+        "bookings": []
+    },
+    {
+        "userId": "50",
+        "name": "Brown Inc",
+        "city": "Potterville",
+        "country": "USA",
+        "description": "Family what decision wife hair despite. Film audience serve value of open gun. Watch meet goal suddenly quickly interest eat care.",
+        "type": "Resort",
+        "adultCount": 3,
+        "childCount": 0,
+        "facilities": [
+            "Parking",
+            "Free WiFi",
+            "Spa",
+            "Pool",
+            "Gym"
+        ],
+        "pricePerNight": 122.35,
+        "starRating": 5,
+        "imageUrls": [
+            "https://images.unsplash.com/photo-1506748686214-e9df14d4d9d0"
+        ],
+        "lastUpdated": "2024-04-20T21:48:10",
+        "bookings": []
+    }
+]

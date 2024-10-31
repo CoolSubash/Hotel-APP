@@ -82,8 +82,7 @@ router.post(
   upload.array("imageFiles"), // Ensure the key matches in Postman
   hotelValidation,
   async (req: Request, res: Response) => {
-    console.log(req.body)
-    console.log(req.files)
+   
     const errors = validationResult(req);
     if (!errors.isEmpty()) {
       return res.status(400).json({ errors: errors.array() });
@@ -96,7 +95,7 @@ router.post(
       }
    
       const urls: string[] = await uploadImage(files);
-     
+      console.log(urls)
       
 
       // Extract and convert fields
@@ -140,7 +139,7 @@ router.post(
         .status(201)
         .json({ message: "Hotel added successfully", hotel });
     } catch (error) {
-      console.error("Error during image upload or hotel save:", error);
+     
       return res.status(500).send("Error processing request");
     }
   }
@@ -150,10 +149,11 @@ router.post(
 
 router.put("/:id", verifyToken, upload.array("imageFiles",6), hotelValidation,async (req: Request, res: Response) => {
     const errors = validationResult(req);
+    
     if (!errors.isEmpty()) {
       return res.status(400).json({ errors: errors.array() });
     }
-    console.log(req.files);
+   
   
     const files = req.files as Express.Multer.File[] | undefined;
     if (!files || files.length === 0) {
@@ -168,22 +168,28 @@ router.put("/:id", verifyToken, upload.array("imageFiles",6), hotelValidation,as
       }
 
       if (existingHotel.userId.toString() !== req.userId) {
-        return res.status(403).json({ message: "You are not authorized to delete this hotel" });
+        return res.status(403).json({ message: "You are not authorized to Update this hotel" });
       }
 
-      const existingImageUrls = existingHotel.imageUrls;
-
-      for (const url of existingImageUrls) {
-        const publicId = url.split("/").pop()?.split(".")[0];
-        console.log(publicId);
-        if (publicId) {
-          await cloudinary.v2.uploader.destroy(publicId);
+        
+       
+      let existingUrl=[];
+      if(req.body.imageUrls){
+        existingUrl=Array.isArray(req.body.imageUrls)?req.body.imageUrls:[req.body.imageUrls];
+        
+      }
+        
+       
+        let urls: string[] = await uploadImage(files);
+        if(existingUrl){
+          urls = [...existingUrl, ...(urls.length > 0 ? urls : [])];
+        }else{
+          urls=[...(urls.length > 0 ? urls : [])];
         }
-      }
+       
+        
 
-      const urls: string[] = await uploadImage(files);
-      console.log(urls);
-
+    
       const {
         name,
         city,
@@ -230,7 +236,7 @@ router.put("/:id", verifyToken, upload.array("imageFiles",6), hotelValidation,as
      
       res.status(201).json({message:"Updated Successfully"});
     } catch (err) {
-      console.log(err)
+      console.log(err);
       return res.status(500).json({ message: "Error while Updating  hotels" });
     }
   }
@@ -239,6 +245,7 @@ router.put("/:id", verifyToken, upload.array("imageFiles",6), hotelValidation,as
 // Route to get hotels
 router.get("/", verifyToken, async (req: Request, res: Response) => {
   try {
+   
     const hotelList = await Hotel.find({
       userId: req.userId,
     }).sort({lastUpdated:-1});
@@ -254,13 +261,15 @@ router.get("/", verifyToken, async (req: Request, res: Response) => {
 
 router.get("/:id", verifyToken, async (req: Request, res: Response) => {
   const id = req.params.id;
+ 
+  
   try {
-    const hotelList = await Hotel.find({
+    const hotelList = await Hotel.findOne({
       _id: id,
       userId: req.userId,
     });
-
-    return res.json(hotelList);
+    
+    return res.status(200).json(hotelList);
   } catch (err) {
     res.status(500).json({ message: "Error fetching hotels" });
   }

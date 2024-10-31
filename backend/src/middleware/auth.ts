@@ -10,14 +10,14 @@ declare global{
 }
 
 const verifyToken = async (req: Request, res: Response, next: NextFunction) => {
-    const token = req.cookies.auth_token;
-    
+    const token = req.cookies.auth_token; 
     if (!token) {
         return res.status(401).json({ message: "Unauthorized: No token provided" });
     }
-
+    
     try {
         // Verifying the token
+      
         const decoded = jwt.verify(token, process.env.SECRET_KEY as string);
         
         // Attach the decoded token to the request object (req.user)

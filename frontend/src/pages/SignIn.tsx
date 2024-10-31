@@ -1,8 +1,8 @@
 import { useForm } from "react-hook-form";
-import { Link,useNavigate } from "react-router-dom";
+import { Link, useLocation, useNavigate } from "react-router-dom";
 import * as apiclient from "../API-CLIENT";
 import { useMutation } from "react-query";
-import { useToast} from "../contexts/AppContext";
+import { useToast } from "../contexts/AppContext";
 export type SignInFormData = {
   email: string;
   password: string;
@@ -10,24 +10,28 @@ export type SignInFormData = {
 import { QueryClient } from "react-query";
 
 const SignIn = () => {
-  const { register, handleSubmit, formState: { errors } } = useForm<SignInFormData>();
-   const navigate=useNavigate()
-   const queryClient=new QueryClient();
-   const {showToast}=useToast();
-
-
+  const {
+    register,
+    handleSubmit,
+    formState: { errors },
+  } = useForm<SignInFormData>();
+  const navigate = useNavigate();
+  const queryClient = new QueryClient();
+  const { showToast } = useToast();
+  const location = useLocation();
   const mutation = useMutation({
     mutationFn: (data: SignInFormData) => apiclient.login(data as any),
-    onSuccess: async() => {
+    onSuccess: async () => {
       await queryClient.invalidateQueries("validateToken");
-      showToast({message:"Login Successfully",type:"SUCCESS"});
-      navigate("/");
+      showToast({ message: "Login Successfully", type: "SUCCESS" });
      
+      navigate(location?.state?.from?.location?.pathname || "/");
+      
       window.location.reload();
     },
     onError: (error: any) => {
-        showToast({ message: error.message, type: "ERROR" });
-    }
+      showToast({ message: error.message, type: "ERROR" });
+    },
   });
 
   const onSubmit = (data: SignInFormData) => {
@@ -35,7 +39,10 @@ const SignIn = () => {
   };
 
   return (
-    <form className="flex flex-col my-10 gap-5" onSubmit={handleSubmit(onSubmit)}>
+    <form
+      className="flex flex-col my-10 gap-5"
+      onSubmit={handleSubmit(onSubmit)}
+    >
       <h2 className="text-3xl font-bold">Sign In</h2>
       <label className="text-gray-700 text-sm font-bold flex-1">
         Email
@@ -44,7 +51,9 @@ const SignIn = () => {
           className="border rounded w-full py-1 px-2 font-normal"
           {...register("email", { required: "This field is required" })}
         />
-        {errors.email && <span className="text-red-500">{errors.email.message}</span>}
+        {errors.email && (
+          <span className="text-red-500">{errors.email.message}</span>
+        )}
       </label>
       <label className="text-gray-700 text-sm font-bold flex-1">
         Password
@@ -53,10 +62,15 @@ const SignIn = () => {
           className="border rounded w-full py-1 px-2 font-normal"
           {...register("password", {
             required: "This field is required",
-            minLength: { value: 6, message: "Password must be at least 6 characters" }
+            minLength: {
+              value: 6,
+              message: "Password must be at least 6 characters",
+            },
           })}
         />
-        {errors.password && <span className="text-red-500">{errors.password.message}</span>}
+        {errors.password && (
+          <span className="text-red-500">{errors.password.message}</span>
+        )}
       </label>
       <button
         type="submit"

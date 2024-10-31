@@ -9,6 +9,8 @@ import userRoutes from './routes/users'
 import authRoutes from './routes/auth'
 import adminHotelRoutes from "./routes/myhotel"
 import hotelroutes from "./routes/hotels"
+import Bookingroutes from "./routes/Booking"
+import AddRoutes from "./routes/test"
 import path from 'path';
 const app=express()
 
@@ -38,6 +40,8 @@ app.use("/api/users",userRoutes);
 app.use("/api/auth",authRoutes);
 app.use("/api/my-hotel",adminHotelRoutes)
 app.use("/api/hotel",hotelroutes)
+app.use("/api/booking",Bookingroutes)
+app.use("/api/addHotel",AddRoutes)
 // A catch-all route to serve `index.html` for any other route not handled by the backend
 app.get('*', (req:Request, res:Response) => {
   res.sendFile(path.join(__dirname, "../../frontend/dist/index.html"));

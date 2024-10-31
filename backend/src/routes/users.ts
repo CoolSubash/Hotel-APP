@@ -1,8 +1,10 @@
 import express,{Response,Request} from "express"
 import User from "../model/user"
 import { Router } from "express"
-import { registercontroller } from "../controller/user";
+import { registercontroller,userInfo } from "../controller/user";
 import {check, validationResult } from "express-validator"
+import verifyToken from "../middleware/auth";
+
 const router=Router();
 
 const userValidation=[
@@ -16,7 +18,7 @@ const userValidation=[
 
 
 router.post("/register",userValidation, registercontroller);
-
+router.get("/me",verifyToken,userInfo)
 
 export default router
 

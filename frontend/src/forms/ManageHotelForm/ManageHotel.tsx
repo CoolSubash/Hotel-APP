@@ -4,6 +4,8 @@ import Type from "./Type";
 import Facility from "./Facility";
 import Image from "./Image";
 import Guest from "./Guest";
+import { useEffect } from "react";
+import { useParams } from "react-router-dom";
 
 export type HotelForm = {
   name: string;
@@ -17,17 +19,24 @@ export type HotelForm = {
   pricePerNight: number;
   starRating: number; // Should be between 1 and 5
   imageFiles: File[];
+  imageUrls:string[]
 };
 type onsave={
+    hotel?:HotelForm
     onSave:(data:FormData)=>void;
     isLoading:boolean
 }
-const ManageHotel = ({onSave, isLoading}:onsave) => {
+const ManageHotel = ({onSave, isLoading,hotel}:onsave) => {
+  const { hotelId } = useParams();
   const formData = useForm<HotelForm>();
   const { handleSubmit,reset } = formData;
 
+  useEffect(()=>{
+    reset(hotel)
+  },[hotel,reset])
+
   const onSubmit = (data:any) => {
-    console.log(data)
+
     const formDataToSend = new FormData();  // Using FormData to handle file uploads
     formDataToSend.append('name', data.name);
     formDataToSend.append('city', data.city);
@@ -40,16 +49,26 @@ const ManageHotel = ({onSave, isLoading}:onsave) => {
     formDataToSend.append('starRating', data.starRating.toString());
 
     // Append image files
-
+    
     data.facilities.forEach((facility:string, index:number) => {
       formDataToSend.append(`facilities[${index}]`, facility);  // Append each file
     });
+
+    if(data.imageUrls){
+      data.imageUrls.forEach((url:string, index:number) => {
+        formDataToSend.append(`imageUrls[${index}]`, url);  // Append each file
+      });
+  
+    }
+
+     
+
     Array.from(data.imageFiles).forEach((file:any)=>{
       formDataToSend.append(`imageFiles`, file);  // Append each file
     })
     // Now we send the form data, including files
     onSave(formDataToSend);
-    reset()
+    
   };
   return (
     <>
@@ -66,7 +85,7 @@ const ManageHotel = ({onSave, isLoading}:onsave) => {
             type="submit"
             className="bg-blue-800 hover:bg-blue-700 text-white font-semibold py-3 px-8 rounded-full shadow-lg transition duration-300 ease-in-out transform hover:scale-105"
           >
-          {isLoading? "Saving..":"Save.."}
+          {isLoading? "Saving..":"Save"}
           </button>
         </span>
         </form>

@@ -11,6 +11,7 @@ const bookingSchema = new mongoose.Schema({
   checkOut: { type: Date, required: true },
   userId: { type: String, required: true },
   totalCost: { type: Number, required: true },
+  hotelId:{type:String,required:true}
 });
 
 const HotelSchema = new mongoose.Schema({
@@ -36,5 +37,5 @@ const HotelSchema = new mongoose.Schema({
 });
 
 const Hotel = mongoose.model<HotelType>("Hotel", HotelSchema);
-
+export const Booking=mongoose.model<BookingType>("Booking",bookingSchema)
 export default Hotel;
