@@ -1,6 +1,6 @@
 
 import { Inputs } from "./pages/Register";
-import hotelList from "./data.json"
+
 const API_BASE_URL = import.meta.env.VITE_API_URL || " ";
 
 import { BookingCreate } from "./forms/Booking/BookingForm";

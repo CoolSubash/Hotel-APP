@@ -1,4 +1,4 @@
-import { useState } from "react";
+
 
 type Props = {
   handleChange: (event: React.ChangeEvent<HTMLInputElement>, star: string) => void;

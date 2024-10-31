@@ -21,7 +21,7 @@ const propertyTypes: PropertyType[] = [
 ];
 
 const NextArrow = (props: any) => {
-  const { className, style, onClick } = props;
+  const {  onClick } = props;
   return (
     <div className="absolute top-1/2 right-0 transform -translate-y-1/2 z-10 cursor-pointer text-blue-600">
       <button onClick={onClick} className="bg-white rounded-full shadow-md p-2">
@@ -34,7 +34,7 @@ const NextArrow = (props: any) => {
 };
 
 const PrevArrow = (props: any) => {
-  const { className, style, onClick } = props;
+  const {  onClick } = props;
   return (
     <div className="absolute top-1/2 left-0 transform -translate-y-1/2 z-10 cursor-pointer text-blue-600">
       <button onClick={onClick} className="bg-white rounded-full shadow-md p-2">

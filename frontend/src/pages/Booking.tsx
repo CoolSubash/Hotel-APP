@@ -4,7 +4,7 @@ import * as apiClient from "../API-CLIENT";
 import { useQuery } from "react-query";
 import BookingForm from "../forms/Booking/BookingForm";
 import { useSearchContext } from "../contexts/SearchContext";
-import DatePicker from "react-datepicker";
+
 import { loadStripe } from "@stripe/stripe-js";
 import { Elements } from "@stripe/react-stripe-js";
 
@@ -22,8 +22,7 @@ const BookingFormPage: React.FC = () => {
   const { id } = useParams();
   const searchParams = useSearchContext();
 
-  const [checkInDate, setCheckInDate] = useState<Date>(searchParams.checkIn);
-  const [checkOutDate, setCheckOutDate] = useState<Date>(searchParams.checkOut);
+  
   const [numberOfDays, setNumberOfDays] = useState<number>(0);
   const [totalPrice, setTotalPrice] = useState<number>(0);
 
@@ -38,12 +37,11 @@ const BookingFormPage: React.FC = () => {
 
   // Calculate the number of days and total price when dates change
   useEffect(() => {
-    if (checkInDate && checkOutDate) {
-      const days = Math.ceil((checkOutDate.getTime() - checkInDate.getTime()) / 86400000);
+      const days = Math.ceil((searchParams.checkOut.getTime() - searchParams.checkIn.getTime()) / 86400000);
       setNumberOfDays(days);
       setTotalPrice(days * (hotelInfo?.pricePerNight || 0));
-    }
-  }, [checkInDate, checkOutDate, hotelInfo]);
+    
+  }, []);
 
   return (
     <Elements stripe={stripePromise}>
@@ -61,12 +59,12 @@ const BookingFormPage: React.FC = () => {
               </div>
               <div className="my-5">
                 <label>Check-In Date: </label>
-                <p className="font-semibold">{checkInDate.toDateString()}</p>
+                <p className="font-semibold">{searchParams.checkIn.toDateString()}</p>
                 
               </div>
               <div className="my-3">
                 <label>Check-Out Date: </label>
-                <p className="font-semibold">{checkOutDate.toDateString()}</p>
+                <p className="font-semibold">{searchParams.checkOut.toDateString()}</p>
           
               </div>
               <div className="guest-info flex gap-2 my-2">
@@ -84,8 +82,8 @@ const BookingFormPage: React.FC = () => {
         <BookingForm
           price={totalPrice}
           hotelId={id as string}
-          checkIn={checkInDate}
-          checkOut={checkOutDate}
+          checkIn={searchParams.checkIn}
+          checkOut={searchParams.checkOut}
           adultCount={searchParams.adultCount}
           childCount={searchParams.childCount}
          

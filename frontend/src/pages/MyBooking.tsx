@@ -6,13 +6,13 @@ const MyBooking = () => {
   const navigate = useNavigate();
 
   // Fetch bookings
-  const { data: bookings = [], error: bookingsError, isLoading: bookingsLoading } = useQuery("bookings", apiClient.fetchBookings, {
+  const { data: bookings = [] } = useQuery("bookings", apiClient.fetchBookings, {
     refetchOnWindowFocus: false,
   });
 
   // Fetch hotels only if bookings are available
   const hotelIds = bookings.map((booking:any) => booking.hotelId); // Safely map ids
-  const { data: hotelsData = [], error: hotelsError, isLoading: hotelsLoading } = useQuery(
+  const { data: hotelsData = [] } = useQuery(
     ["hotels", hotelIds],
     async () => {
       const hotelPromises = bookings.map((booking:any) =>

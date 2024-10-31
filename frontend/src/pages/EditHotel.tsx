@@ -13,9 +13,10 @@ const EditHotel: React.FC = () => {
 
   const {showToast}= useToast();
   // Fetch the hotel data using `useQuery`
-  const { data, isLoading, error } = useQuery(['singleHotel', id], () => apiclient.fetchMyHotelSingle(id as string), {
+  const { data, isLoading, } = useQuery(['singleHotel', id], () => apiclient.fetchMyHotelSingle(id as string), {
     enabled: !!id,
     onError: (error: Error) => {
+      console.log(error)
       showToast({ message: "Error while fetching", type: "ERROR" });
     }
   });

@@ -49,6 +49,7 @@ const Search = () => {
   const [sortOption, setSortOption] = useState<string>("");
 
   const handlePageChange = (pageNumber: number) => {
+    setSelectedPrice(selectedPrice);
     setPage(pageNumber);
   };
 
