@@ -32,7 +32,7 @@ const NextArrow = (props: any) => {
   };
   
   const PrevArrow = (props: any) => {
-    const { =onClick } = props;
+    const { onClick } = props;
     return (
       <div className="absolute top-1/2 -left-3 transform -translate-y-1/2 z-10 cursor-pointer text-white">
         <button onClick={onClick} className="bg-blue-600 rounded-full shadow-md p-2">
