@@ -67,6 +67,7 @@ const BookingForm: React.FC<BookingFormProps> = ({ price, hotelId, checkIn, chec
       console.error("Failed to fetch current user data:", error);
     },
   });
+  console.log(currentUserInfo)
 
   const createPaymentIntent = useMutation(async (price: number) => {
     return await apiClient.paymentIntent(price);

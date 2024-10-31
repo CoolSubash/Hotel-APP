@@ -5,7 +5,7 @@ import Facility from "./Facility";
 import Image from "./Image";
 import Guest from "./Guest";
 import { useEffect } from "react";
-import { useParams } from "react-router-dom";
+
 
 export type HotelForm = {
   name: string;
@@ -27,7 +27,7 @@ type onsave={
     isLoading:boolean
 }
 const ManageHotel = ({onSave, isLoading,hotel}:onsave) => {
-  const { hotelId } = useParams();
+  
   const formData = useForm<HotelForm>();
   const { handleSubmit,reset } = formData;
 
